@@ -47,7 +47,7 @@
                     <param name="type">             roie                </param>
                     <param name="port">             CAN1:3:0            </param>
                     <param name="position">         eomc_pos_atmotor    </param>
-                    <param name="resolution">       -14400              </param>
+                    <param name="resolution">       -16000              </param>
                     <param name="tolerance">        0                   </param>  
                 </group> 
  
