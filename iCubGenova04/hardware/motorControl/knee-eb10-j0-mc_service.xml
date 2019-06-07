@@ -36,11 +36,11 @@
                 </group>
                 
                 <group name="ENCODER1">  
-                    <param name="type">             eomc_enc_aea         </param>  
-                    <param name="port">             CONN:P6              </param>
-                    <param name="position">         eomc_pos_atjoint     </param>
-                    <param name="resolution">       4096                 </param> 
-                    <param name="tolerance">        0.703                </param>  
+                    <param name="type">             none                 </param>  
+                    <param name="port">             CONN:none            </param>
+                    <param name="position">         none                 </param>
+                    <param name="resolution">       0                    </param> 
+                    <param name="tolerance">        0                    </param>  
                 </group>        
                 
                 <group name="ENCODER2">
@@ -48,7 +48,7 @@
                     <param name="port">             CAN1:4:0            </param>
                     <param name="position">         eomc_pos_atmotor    </param>
                     <param name="resolution">       14400               </param>
-                    <param name="tolerance">        0                   </param>  
+                    <param name="tolerance">        3                   </param>  
                 </group> 
  
             </group>    
