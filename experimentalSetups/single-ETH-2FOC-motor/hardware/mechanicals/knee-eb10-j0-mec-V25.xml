@@ -24,16 +24,16 @@
     <group name="LIMITS">
         <!--                                     0         -->
         <param name="hardwareJntPosMax">         0      </param>
-        <param name="hardwareJntPosMin">         0      </param>
+        <param name="hardwareJntPosMin">      -100      </param>
         <param name="rotorPosMin">               0      </param> 
         <param name="rotorPosMax">               0      </param>
     </group>
 
     <group name="2FOC">
-        <param name="HasHallSensor">         0   </param>
+        <param name="HasHallSensor">         1   </param>
         <param name="HasTempSensor">         0   </param>
         <param name="HasRotorEncoder">       1   </param>
-        <param name="HasRotorEncoderIndex">  1   </param>
+        <param name="HasRotorEncoderIndex">  0   </param>
         <param name="HasSpeedEncoder">       0   </param>
         <param name="RotorIndexOffset">      0   </param>
         <param name="MotorPoles">            8   </param>
