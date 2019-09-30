@@ -9,7 +9,7 @@
         </paramlist>
       
         <param name="period"> 10                </param>
-        <param name="name">   /icub/knee        </param>
+        <param name="name">   /eth2focmotor/knee        </param>
         <param name="ports">  knee              </param>
         <param name="joints"> 1                 </param>
       
