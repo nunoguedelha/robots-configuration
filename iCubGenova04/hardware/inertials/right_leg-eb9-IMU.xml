@@ -19,7 +19,7 @@
                     <param name="type">                 strain2           </param>
 
                     <group name="PROTOCOL">
-                        <param name="major">   0   </param>
+                        <param name="major">   2   </param>
                         <param name="minor">            0                   </param>
                     </group>
                     <group name="FIRMWARE">
@@ -47,11 +47,9 @@
 
             <group name="SETTINGS">
                 <param name="acquisitionRate">      50      </param>
-                <param name="enabledSensors">   r_foot_ft_acc_3b14    r_foot_ft_gyro_3b14    r_foot_ft_eul_3b14    r_foot_ft_mag_3b14    r_foot_ft_stat_3b14   </param>                
+                <param name="enabledSensors">   r_foot_ft_acc_3b14    r_foot_ft_gyro_3b14    r_foot_ft_eul_3b14    r_foot_ft_mag_3b14    r_foot_ft_stat_3b14   </param>
             </group>
 
         </group>
 
     </device>
-
-
