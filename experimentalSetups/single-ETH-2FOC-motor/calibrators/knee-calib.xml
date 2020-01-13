@@ -11,7 +11,7 @@
 		</group>
 
         <group name="HOME">
-        <param name="positionHome">                       45        </param>
+        <param name="positionHome">                      -45       </param>
         <param name="velocityHome">                       10.00    </param>
         </group>
         
@@ -27,8 +27,8 @@
         <param name="calibration4">                       0.0        </param>
         <param name="calibration5">                       0.0        </param>
         <param name="calibrationZero">                  210.0        </param>
-        <param name="calibrationDelta">                   6.0        </param>
-        <param name="startupPosition">                   45.00       </param>
+        <param name="calibrationDelta">                   4.0        </param>
+        <param name="startupPosition">                  -45.00       </param>
         <param name="startupVelocity">                    2.0        </param>
         <param name="startupMaxPwm">                   1200          </param>
         <param name="startupPosThreshold">                2          </param>

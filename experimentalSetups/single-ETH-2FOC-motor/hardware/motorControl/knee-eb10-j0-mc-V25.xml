@@ -32,7 +32,7 @@
        <param name="positionControl">  POS_PID_DEFAULT         </param>
        <param name="velocityControl">  none                    </param>
        <param name="mixedControl">     none                    </param>
-       <param name="torqueControl">    TRQ_PID_TUNED           </param>
+       <param name="torqueControl">    TRQ_PID_OUTPUT_CURR     </param>
        <param name="currentPid">       2FOC_CUR_CONTROL        </param>
        <param name="speedPid">         2FOC_VEL_CONTROL        </param>
     </group>
@@ -121,12 +121,12 @@
         <param name="maxOutput">    2500       </param>
         <param name="maxInt">        200       </param>
         <param name="ko">              0       </param>
-        <param name="stictionUp">      3       </param>
-        <param name="stictionDown">    3.5     </param>
+        <param name="stictionUp">      1.5       </param>
+        <param name="stictionDown">    1.7     </param>
         <param name="kff">             1       </param>
         <param name="kbemf">           0.0038  </param>
         <param name="filterType">      0       </param>
-        <param name="ktau">         -100       </param>
+        <param name="ktau">         -230       </param>
     </group>
 
     <group name="TRQ_PID_NO_FRICTION">
